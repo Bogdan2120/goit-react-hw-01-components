@@ -1,6 +1,12 @@
+.statisticsSection {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+
 .statistics {
   width: 400px;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .title {
