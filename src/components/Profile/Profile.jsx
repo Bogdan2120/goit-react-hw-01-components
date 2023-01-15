@@ -1,9 +1,13 @@
 import PropTypes from 'prop-types';
 import style from './profole.module.css';
+import { randomColor } from 'utils';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <section className={style.profileSection}>
+    <section
+      className={style.profileSection}
+      style={{ backgroundColor: `#${randomColor()}` }}
+    >
       <div className={style.profile}>
         <div className={style.description}>
           <img src={avatar} alt={username} className={style.avatar} />

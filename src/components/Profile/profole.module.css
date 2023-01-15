@@ -10,6 +10,7 @@
   border: 1px solid #000;
   border-radius: 5px;
   background: #fff;
+  overflow: hidden;
   -webkit-box-shadow: 4px 7px 15px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 7px 15px 5px rgba(0, 0, 0, 0.5);
 }
